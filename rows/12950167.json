@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "12950167",
+  "doi": "10.1021/bi027093c",
+  "pmcid": "",
+  "relevance_rank_note": "Directly on the B1 side of H4: it measures the affinity of reconstituted apoE particles for apoER2, an LDLR-family recycling receptor, with Kd values printed for apoE3 and apoE4 side by side, and finds no apoE4-over-apoE3 advantage, so it is an against row; only the abstract was available, so the per-isoform Kd values within the stated range and the statistics could not be read.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "12950167",
+  "description": "POPC-apoE particles reconstituted from apoE3, apoE4 and several apoE4 truncation and point mutants were assayed for specific binding to apoER2 on receptor-expressing cells, and all of them bound tightly within one pooled Kd range of 12 to 19 micrograms per millilitre, with only apoE2 falling outside it at 31, so apoE4 showed no tighter adhesion to this recycling receptor than apoE3.",
+  "quote": "POPC-apoE particles generated using apoE3, apoE4, the truncated apoE4-259, apoE4-229, apoE4-202, and apoE-165, and the mutant apoE4R158M all bound tightly to the apoER2 (K(d) range of 12 +/- 3 to 19 +/- 4 microg/mL). POPC-apoE2 bound with reduced affinity (K(d) = 31 +/- 5.3 microg/mL).",
+  "summary": "(APOE3 -> APOE4) -> (no change in affinity for apoER2, both inside a shared Kd range of 12-19 ug/mL)",
+  "relevance": 0.6,
+  "system": "Reconstituted POPC particles made with lipid-free apoE2, apoE3, apoE4, the carboxy-terminal truncations apoE4-259, apoE4-229, apoE4-202 and apoE-165, and the point mutant apoE4R158M, the apoE having been isolated from apoE-expressing cell cultures; specific binding measured on ldlA-7 cells expressing apoER2 and on transiently transfected COS-M6 cells, specific binding obtained by subtracting binding to the matched untransfected cells.",
+  "location": "Abstract",
+  "eff": "N/A",
+  "eff_prov": "full_text_unavailable",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) the individual Kd for apoE3 and for apoE4, which the abstract reports only as a pooled range of 12 +/- 3 to 19 +/- 4 ug/mL across seven apoE forms, so which of the two sits at which end of that range is unknown and no apoE4-versus-apoE3 effect size could be recorded; (2) whether any statistical test brackets apoE3 against apoE4, the abstract asserting only that all seven bound tightly, which is why this is scored as an untested null rather than a tested equivalence, with p N/A; (3) the number of independent binding experiments and replicates; (4) whether binding was assayed at neutral pH only, since H4 concerns adhesion that would persist at endosomal pH, and whether dissociation or release was measured at all, none of which the abstract mentions; (5) whether apoER2 recycling or surface level was measured, which the abstract does not report. Recorded as against because tighter apoE4 adhesion to this recycling receptor is what H4 predicts and the abstract reports no such difference. Kd here is in micrograms per millilitre rather than molar, so it reflects apoE mass in the particle preparation. The system is a cell-free-style reconstituted particle on transfected non-neural cell lines, not human brain cells.",
+  "figure_viewed": false
+ }
+]

@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "31796678",
+  "doi": "10.3233/JAD-190914",
+  "pmcid": "",
+  "relevance_rank_note": "Abstract-level only: states that ApoE4 weakens SNX17 binding to ApoER2 and blocks ApoER2 recycling to the surface, and that carnosic acid reverses it; no panel-level data available locally.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "31796678",
+  "description": "The authors report that ApoE4 reduces the binding of the recycling sorting adaptor SNX17 to ApoER2 and blocks ApoER2 recycling, lowering surface ApoER2.",
+  "quote": "we demonstrated that ApoE4 attenuates the binding of sorting nexin 17 (SNX17) to ApoER2 and inhibits the recycling of ApoER2, resulting in decreased cell surface level of ApoER2",
+  "summary": "(APOE3 -> APOE4) -> (less SNX17-ApoER2 binding) -> (less ApoER2 recycling and surface level)",
+  "relevance": 0.65,
+  "system": "Not stated in the available abstract; the abstract describes ApoE4 effects on ApoER2 recycling and Reelin signalling with no cell type, species or assay given. system unknown, so the distance from non-aged non-AD human brain cells cannot be assessed.",
+  "location": "Abstract",
+  "eff": "N/A",
+  "eff_prov": "full_text_unavailable",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "Only the PubMed abstract is available locally (ft/31796678.txt); no figures, panels, statistics or system description. The binding measured is SNX17-to-ApoER2, i.e. an adaptor on the cytoplasmic side, not ApoE-to-receptor binding, so this is B2 (class 3), not B1. A person should pull the full text to panel-level this."
+ },
+ {
+  "pmid": "31796678",
+  "description": "Carnosic acid is reported to increase SNX17 binding to ApoER2 and to reverse the ApoE4-induced fall in surface ApoER2 and in Reelin signalling.",
+  "quote": "CA enhances the binding of SNX17 to ApoER2, counteracts the negative effects of ApoE4 on the cell surface level of ApoER2",
+  "summary": "(APOE4 + carnosic acid) -> (SNX17-ApoER2 binding and surface ApoER2 restored)",
+  "relevance": 0.5,
+  "system": "Not stated in the available abstract; carnosic acid treatment of cells expressing ApoER2 with ApoE4, dose and duration not given. system unknown, so the distance from non-aged non-AD human brain cells cannot be assessed.",
+  "location": "Abstract",
+  "eff": "N/A",
+  "eff_prov": "full_text_unavailable",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 4,
+  "strength": 4,
+  "against": false,
+  "human_check": "Abstract only. Class 4: a pharmacological perturbation that restores the recycling adaptor interaction, with a surrogate readout (surface ApoER2). No dose, no statistics, no system."
+ }
+]

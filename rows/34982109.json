@@ -1,0 +1,50 @@
+[
+ {
+  "paper": true,
+  "pmid": "34982109",
+  "doi": "10.1242/jcs.258687",
+  "pmcid": "PMC8917355",
+  "relevance_rank_note": "Measures no recycling receptor: its subject is autophagic and lysosomal degradation of APOE itself, and its statements about impaired endosomal receptor recycling are citations to other groups. Two findings bear on H4 only as B-side surrogates, isoform-dependent internalization of secreted APOE and APOE4 retention in late endosomes; neither measures apoE-receptor adhesion.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "34982109",
+  "description": "Conditioned medium carrying mCherry-tagged APOE2, APOE3 or APOE4 was applied to hepatic and neuron-like cells, and intracellular APOE accumulated most with APOE4 and least with APOE2, matching the known receptor-affinity ranking of the isoforms.",
+  "quote": "Internalization levels were isoform-dependent, with the highest fluorescence observed in both cell types treated with APOE4–mCh, and the lowest in APOE2–mCh-treated cells (Fig. 7A,B).",
+  "summary": "(APOE3 -> APOE4) -> (more internalized APOE retained intracellularly)",
+  "relevance": 0.3,
+  "system": "HepG2 human hepatoma cells and ST14A immortalized rat neuronally derived cells treated with conditioned medium from HEK293T cells transfected with APOE2-mCherry, APOE3-mCherry or APOE4-mCherry, the secreted APOE shown by native gel to run as lipidated APOE with no isoform difference in size or pattern; live imaging over time with red fluorescence per phase area quantified, three wells per isoform. immortalized human hepatoma and rat neuronal cell lines exposed to mCherry-tagged APOE secreted by transfected HEK293T cells, not human brain cells with native apoE, and no receptor is identified or measured.",
+  "location": "Fig 7A-B",
+  "eff": "qualitative",
+  "eff_prov": "visual_only",
+  "p": "N/A",
+  "p_prov": "ambiguous_panel",
+  "n": "3",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 5,
+  "against": false,
+  "human_check": "Decision 2026-11-23 (delegated): rows KEPT, relevance cut to 0.3 and strength to 5 rather than dropped. Verified at source: the Fig 7A-B legend reads 'Bars represent times when FDR<0.05 between APOE isoforms by two-way ANOVA' - it never names WHICH isoform pair, and all three isoforms (APOE2, APOE3, APOE4) are in the experiment, so an APOE2-vs-APOE3 bar would satisfy that wording without bearing on H4 at all. No figure image is saved, so which bars carry the APOE4-vs-APOE3 comparison cannot be checked. P stays N/A / ambiguous_panel. The rows are retained because the ranked direction (APOE4 > APOE3 > APOE2 internalisation) is stated in the text, but they cannot carry weight. The legend states bars mark times when FDR < 0.05 between APOE isoforms by two-way ANOVA, but does not say which isoform pair any bar belongs to, so the APOE4-versus-APOE3 P is ambiguous_panel rather than a recorded inequality; no figure was viewed to resolve which bars sit on that pair. Effect is qualitative because only the ranking is stated, with no magnitude in text or legend. The APOE2 arm is the authors' negative control for low LDL-receptor affinity, which is the only sense in which this readout is receptor-linked; the paper identifies no receptor and measures no binding, hence class 3 at low strength. n = 3 wells per isoform from the Fig 7 methods statement for imaging experiments; the human should confirm this applies to 7A-B and not only to Fig 3.",
+  "figure_viewed": false
+ },
+ {
+  "pmid": "34982109",
+  "description": "After 24 h of uptake from conditioned medium, internalized APOE4 co-localised with the late-endosome marker Rab7 significantly more than with the early-endosome marker EEA1, while APOE3 showed no such shift.",
+  "quote": "APOE4 colocalized with late endosomes significantly more than with early endosomes, whereas APOE3 did not.",
+  "summary": "(APOE3 -> APOE4) -> (internalized APOE4 retained in late endosomes)",
+  "relevance": 0.3,
+  "system": "ST14A immortalized rat neuronally derived cells treated 24 h with conditioned medium containing APOE3-mCherry or APOE4-mCherry from transfected HEK293T cells, then fixed and immunostained for mCherry with early endocytic marker EEA1 or late endocytic marker Rab7, confocal imaging with Imaris colocalisation analysis, three wells per condition with three images per well. immortalized rat neuronal cell line exposed to mCherry-tagged APOE from transfected HEK293T cells, not human brain cells, and the compartment marker is co-localised with APOE rather than with any recycling receptor.",
+  "location": "Fig 7C",
+  "eff": "qualitative",
+  "eff_prov": "visual_only",
+  "p": "N/A",
+  "p_prov": "ambiguous_panel",
+  "n": "3",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 5,
+  "against": false,
+  "human_check": "Decision 2026-11-23 (delegated): rows KEPT, relevance cut to 0.3 and strength to 5 rather than dropped. Verified at source: the Fig 7A-B legend reads 'Bars represent times when FDR<0.05 between APOE isoforms by two-way ANOVA' - it never names WHICH isoform pair, and all three isoforms (APOE2, APOE3, APOE4) are in the experiment, so an APOE2-vs-APOE3 bar would satisfy that wording without bearing on H4 at all. No figure image is saved, so which bars carry the APOE4-vs-APOE3 comparison cannot be checked. P stays N/A / ambiguous_panel. The rows are retained because the ranked direction (APOE4 > APOE3 > APOE2 internalisation) is stated in the text, but they cannot carry weight. The comparison the authors call significant is early-versus-late endosome within APOE4, not APOE4 versus APOE3 directly; the APOE3-versus-APOE4 contrast is asserted as APOE3 not showing the shift, with no bracket or P given for it. Fig 7C's legend gives a star key and a one-way ANOVA with Tukey-Kramer test but does not say which bars the stars sit on, so P is ambiguous_panel; no figure was viewed. This is APOE retention, not receptor retention, so it is B-side only and does not evidence tighter adhesion to any receptor. Effect qualitative, no magnitude printed.",
+  "figure_viewed": false
+ }
+]

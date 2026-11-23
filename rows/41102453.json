@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "41102453",
+  "doi": "10.1038/s42255-025-01389-5",
+  "pmcid": "PMC12638250",
+  "relevance_rank_note": "Treats apoE4-induced sortilin blockade as an established premise cited to the authors' earlier work rather than measuring it here: no apoE-sortilin binding, sortilin surface level or sortilin recycling is assayed in this paper, so its only contribution to H4 is one isoform-swap rescue showing the functional consequence of apoE4 on a recycling receptor's activity.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "41102453",
+  "description": "Human APOE4/4 neurons that were genetically sortilin-wild-type behaved as if sortilin were absent when fed apoE4-containing astrocyte medium, and regained sortilin-dependent fatty-acid use when the only change was swapping to apoE3-containing medium.",
+  "quote": "maximal respiration in E4WT iNs was insensitive to etomoxir when neurons were exposed to conditioned medium from E4WT astrocytes (Fig. 4e,g and Supplementary Fig. 10a). However, sensitivity to etomoxir was restored in E4WT iNs when exposed to medium conditioned by E3WT iAs",
+  "summary": "(apoE4 medium -> apoE3 medium, sortilin-WT neurons) -> (sortilin function restored), i.e. (APOE3 -> APOE4) -> (functional loss of sortilin)",
+  "relevance": 0.6,
+  "system": "Human iPS cell-derived cortical neurons (NEUROG2-induced, day 12 of culture) from an APOE epsilon4/epsilon4 line wild-type for SORT1, cultured 8 days in medium conditioned by iPS cell-derived astrocytes of either APOE epsilon4/epsilon4 or APOE epsilon3/epsilon3 genotype; real-time oxygen consumption rate by Seahorse with or without 16 uM etomoxir, maximal respiration as readout, n = 5 independent experiments. the readout is mitochondrial respiration several steps downstream of receptor adhesion, the apoE is secreted by iPS-derived astrocytes rather than native brain glia, and no sortilin binding, surface level or recycling is measured in this paper.",
+  "location": "Fig 4e-g",
+  "eff": "qualitative",
+  "eff_prov": "visual_only",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "5",
+  "n_prov": "printed_in_text",
+  "class": 4,
+  "strength": 3,
+  "against": false,
+  "human_check": "Class 4: apoE isoform swap is a perturbation of A and the measured endpoint is respiration, a downstream surrogate, not receptor binding or recycling. The legend states statistical significance was tested by unpaired two-tailed Student's t-test for Fig 4g but prints no P value for the comparison in the text or legend, so P is N/A rather than estimated. Effect is qualitative because the text states the direction (insensitive versus restored sensitivity) without a magnitude; no figure was viewed. n = 5 is the number of independent experiments given in the legend for Fig 4e,f. Note that this paper's statements that apoE4 blocks sortilin recycling and traps internalized sortilin in early endosomes are citations to refs 14 and 15, not measurements made here, so they were not extracted as findings.",
+  "figure_viewed": false
+ }
+]

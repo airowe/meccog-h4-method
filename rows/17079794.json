@@ -1,0 +1,50 @@
+[
+ {
+  "paper": true,
+  "pmid": "17079794",
+  "doi": "10.1194/jlr.M600259-JLR200",
+  "pmcid": "N/A",
+  "relevance_rank_note": "Indirect: it measures how much newly synthesised apoE each isoform secretes when LDL receptor expression is raised, so apoE retention by the receptor is inferred from a secretion deficit, and the isoform grading (apoE4 > apoE3 > apoE2 in reduction) is the authors' own argument that the retention reflects isoform affinity for the LDL receptor; no binding and no receptor recycling, surface level or ligand uptake is measured anywhere in the paper.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "17079794",
+  "description": "Pulse-chase measurement of the percentage of newly synthesised apoE secreted by mouse peritoneal macrophages with basal versus raised LDL receptor expression, done separately for each human apoE isoform: raising the receptor cut apoE4 secretion from 38% to 13% and apoE3 secretion from 44% to 22%, so apoE4 was held back more steeply than apoE3, while apoE2 secretion rose; the authors read the ordering as tracking each isoform's LDL receptor affinity. Effect detail: apoE3 44 +/- 10% to 22 +/- 7%, P = 0.08; apoE4 38 +/- 9% to 13 +/- 4%, P = 0.03; apoE2 10 +/- 3% to 19 +/- 3%, P = 0.02. The percentages recorded are the printed apoE4 arm values; no difference-of-differences was computed.",
+  "quote": "As shown here, in Ldlr cells there was a reduction in the secretion of newly synthesized apoE3, from 44% to 22%, with a trend toward statistical significance (P = 0.08). In apoE4 cells, the secretion of newly synthesized apoE was reduced significantly, from 38% to 13% (P = 0.03).",
+  "summary": "(APOE3 -> APOE4) -> (steeper LDLR-dependent fall in apoE secreted, i.e. more apoE retained with the receptor)",
+  "relevance": 0.45,
+  "system": "Mouse peritoneal macrophages from mice with targeted replacement of the mouse apoE gene by human apoE2, apoE3 or apoE4, crossed to a human LDL receptor minigene giving a 2- to 4-fold higher LDL receptor transcript level (Ldlr cells) versus basal (WT cells); mice 12-14 weeks old, cells used 12-14 days after isolation; 30-45 min [35S]methionine pulse then chase, quantitative immunoprecipitation of apoE from medium and lysate, percentage secreted computed against total labelled apoE at the end of the pulse; triplicate determinations, ANOVA. Mouse macrophages expressing human apoE isoforms, not human brain cells; apoE is endogenously expressed and the readout is secretion, not binding or receptor recycling.",
+  "location": "Table 1",
+  "eff": "38%",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "3",
+  "n_prov": "printed_in_text",
+  "class": 4,
+  "strength": 4,
+  "against": false,
+  "human_check": "No figure image was viewed for this row; Table 1 is printed as text in ft/17079794.txt and all values are read from there. The two printed P values are each a within-isoform WT-versus-Ldlr test (apoE3 P = 0.08, apoE4 P = 0.03); the paper draws no apoE4-versus-apoE3 bracket and reports no test of the difference between the two drops, so p is N/A / not_found_in_source rather than either printed value, and no difference-of-differences was computed. The effect cell carries the printed apoE4 WT value 38% because the column takes one unsigned magnitude; the full set of printed percentages is in the description. Class 4 because A is the isoform comparison but the row depends on the raised-LDL-receptor manipulation as a surrogate perturbation, and B is a secretion deficit, not measured adhesion or receptor recycling. n = 3 is the triplicate determinations stated in Statistical analysis; the number of mice per genotype is not stated. Note the authors' own caveat that labelled cellular apoE at the end of the pulse already differed between WT and Ldlr cells for every isoform and that apoE3's weaker result is partly attributed to lower initial apoE3 synthesis in apoE3 Ldlr cells, which weakens the isoform grading.",
+  "figure_viewed": false
+ },
+ {
+  "pmid": "17079794",
+  "description": "In the apoE4 arm of the same pulse-chase series, raising LDL receptor expression cut the rate of apoE4 secretion by 80% and cellular retention by 50%, whereas the apoE3 arm in the upper panel of the same figure showed no difference in apoE secreted or retained after 90 min of chase, making apoE4 the isoform whose secretion the receptor held back most.",
+  "quote": "However, the rate of secretion was reduced by 80% and cell retention was reduced by 50%.",
+  "summary": "(APOE3 -> APOE4) -> (larger LDLR-dependent reduction in apoE secretion rate)",
+  "relevance": 0.4,
+  "system": "Mouse peritoneal macrophages from human apoE4 knock-in mice with basal (WT) or raised (Ldlr) human LDL receptor minigene expression, 2- to 4-fold higher LDL receptor mRNA; mice 12-14 weeks old, cells used 12-14 days after isolation; [35S]methionine pulse-chase to 90 min with quantitative immunoprecipitation of apoE from medium and cell lysate; means of triplicate samples. Mouse macrophages expressing human apoE isoforms, not human brain cells; the apoE4 and apoE3 arms are in separate panels of the figure and are not tested against each other.",
+  "location": "Fig 3 middle panel",
+  "eff": "80%",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "3",
+  "n_prov": "printed_in_text",
+  "class": 4,
+  "strength": 4,
+  "against": false,
+  "human_check": "No figure image was viewed; the 80% and 50% come from the Results text, and the apoE3 comparison from the Results sentence that after 90 min of chase there was no difference in apoE secreted or retained between apoE3 Ldlr and WT cells. The 80% is a within-apoE4 WT-versus-Ldlr reduction, not an apoE4-versus-apoE3 magnitude; the apoE4-versus-apoE3 contrast here is the comparison of two separate panels, which the paper never tests statistically, hence p N/A / not_found_in_source. The legend gives * P < 0.05 for WT versus Ldlr cells without saying which panel or time point carries a star, so no inequality is recorded for this row. Class 4 for the same reason as the Table 1 row: the raised LDL receptor is a surrogate perturbation and the readout is a secretion deficit. The human may judge this row redundant with the Table 1 row, which carries the same logic with both isoforms' percentages and printed P values; it is kept because it is the paper's largest printed magnitude and the only place the apoE4 retention figure appears.",
+  "figure_viewed": false
+ }
+]

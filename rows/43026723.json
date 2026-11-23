@@ -1,0 +1,50 @@
+[
+ {
+  "paper": true,
+  "pmid": "43026723",
+  "doi": "10.1093/glycob/cwag109",
+  "pmcid": "N/A",
+  "relevance_rank_note": "Compares one ApoE3/3 and one ApoE4/4 human fibroblast line for colocalisation of the recycling heparan sulfate proteoglycan glypican-1 with early (Rab5) and late (Rab7) endosome markers, so it bears on the trafficking half of H4 only, measures no ApoE-receptor binding, and its single-donor design confounds genotype with age and disease.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "43026723",
+  "description": "Immunofluorescence colocalisation of glypican-1 with the late-endosome marker Rab7 was much lower in ApoE4/4 fibroblasts than in ApoE3/3 fibroblasts, which the authors read as retarded transport of this recycling proteoglycan from early to late endosomes. Effect detail: mean Pearson R for Rab7 versus GPC1 was 0.85 in ApoE3/3 and 0.32 in ApoE4/4.",
+  "quote": "When corresponding co-localizations were determined in ApoE4/4 fibroblasts the Pearson R-values were for Rab5 vs GPC1 G:R = 0.71 (Fig. 4E and F) and for Rab7 vs GPC1 G:R = 0.32; significance ** (Fig. 4G) indicating retarded transport of GPC1 to early endosomes and from early to late endosomes.",
+  "summary": "(APOE3/3 -> APOE4/4) -> (less GPC1 in Rab7 late endosomes, r 0.85 -> 0.32)",
+  "relevance": 0.2,
+  "system": "Human skin fibroblasts from the Coriell repository, one donor per genotype: ApoE3/3 GM23976 (male, 52 years, healthy) and ApoE4/4 AG10788 (gender unknown, 87 years, late-onset Alzheimer's disease), grown to confluence in MEM with 10% fetal calf serum; immunofluorescence microscopy with mAb Rab7 and GPC1 antiserum, mean Pearson R for green:red colocalisation from six independent low-magnification images per condition. peripheral skin fibroblasts rather than brain cells, and the APOE4 donor is both aged (87 years) and has late-onset Alzheimer's disease while the APOE3 donor is a healthy 52-year-old, so genotype is fully confounded with age and disease at n = 1 donor per arm.",
+  "location": "Fig 4C-D and 4G-H",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "6",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 5,
+  "against": false,
+  "human_check": "Decision 2026-11-23 (delegated): rows KEPT at relevance 0.2, the lowest in the submission, rather than dropped. Verified at source: ApoE3/3 is GM23976 (male, 52 years, healthy) and ApoE4/4 is AG10788 (gender unknown, 87 years, LOAD) - ONE donor per genotype, with age and Alzheimer's disease status fully confounded with APOE genotype, which is the opposite of the hypothesis's non-aged non-AD framing. GPC1 is a heparan sulfate proteoglycan, not an LDLR-family receptor; decisions.md admits HSPGs as co-receptors noted in the row, not as recycling receptors in their own right. Retained because the challenge rules say to record the system and let the specifics speak rather than excluding on the hypothesis's qualifiers, and because the printed Pearson r values are real measurements; the confound makes them uninterpretable for H4. The legend's p = 0.004 (Mann-Whitney, U = 0, Z = -2.88) compares panels E and G, i.e. Rab5-GPC1 against Rab7-GPC1 WITHIN the ApoE4/4 line; it is not an ApoE4 versus ApoE3 test, so P is N/A here. The '**' in the Results sentence refers to that same within-genotype comparison. Effect is qualitative because the two printed Pearson R values belong to separate genotype panels and the authors print no E4-vs-E3 statistic; both r values are given in the description. n = 6 is images, not donors (one donor per genotype). Age and disease status are confounded with genotype.",
+  "figure_viewed": false
+ },
+ {
+  "pmid": "43026723",
+  "description": "Colocalisation of glypican-1 with the early-endosome marker Rab5 was also lower in ApoE4/4 than in ApoE3/3 fibroblasts, read by the authors as retarded delivery of this recycling proteoglycan to early endosomes. Effect detail: mean Pearson R for Rab5 versus GPC1 was 0.88 in ApoE3/3 and 0.71 in ApoE4/4.",
+  "quote": "The Pearson R-values were for Rab5 vs GPC1 G:R = 0.88 (Fig. 4A and B) and for Rab7 vs GPC1 G:R = 0.85 (Fig. 4C and D) indicating equal content of GPC1 in early and late endosomes.",
+  "summary": "(APOE3/3 -> APOE4/4) -> (less GPC1 in Rab5 early endosomes, r 0.88 -> 0.71)",
+  "relevance": 0.2,
+  "system": "Human skin fibroblasts from the Coriell repository, one donor per genotype: ApoE3/3 GM23976 (male, 52 years, healthy) and ApoE4/4 AG10788 (gender unknown, 87 years, late-onset Alzheimer's disease), grown to confluence in MEM with 10% fetal calf serum; immunofluorescence microscopy with mAb Rab5 and GPC1 antiserum, mean Pearson R for green:red colocalisation from six independent low-magnification images per condition. peripheral skin fibroblasts rather than brain cells, and the APOE4 donor is both aged (87 years) and has late-onset Alzheimer's disease while the APOE3 donor is a healthy 52-year-old, so genotype is fully confounded with age and disease at n = 1 donor per arm.",
+  "location": "Fig 4A-B and 4E-F",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "6",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 5,
+  "against": false,
+  "human_check": "Decision 2026-11-23 (delegated): rows KEPT at relevance 0.2, the lowest in the submission, rather than dropped. Verified at source: ApoE3/3 is GM23976 (male, 52 years, healthy) and ApoE4/4 is AG10788 (gender unknown, 87 years, LOAD) - ONE donor per genotype, with age and Alzheimer's disease status fully confounded with APOE genotype, which is the opposite of the hypothesis's non-aged non-AD framing. GPC1 is a heparan sulfate proteoglycan, not an LDLR-family receptor; decisions.md admits HSPGs as co-receptors noted in the row, not as recycling receptors in their own right. Retained because the challenge rules say to record the system and let the specifics speak rather than excluding on the hypothesis's qualifiers, and because the printed Pearson r values are real measurements; the confound makes them uninterpretable for H4. No statistic is reported for the ApoE4/4 versus ApoE3/3 Rab5 comparison (0.71 vs 0.88); the only printed p in the figure, 0.004, is panel E versus panel G within ApoE4/4. The 0.17 difference in Pearson R is untested and may be within noise. Same single-donor age/disease confound as the Rab7 row. Only the abstract, a Results excerpt, a Methods excerpt and the Fig 4 legend were available as text; no figure image exists for this paper, so bars and images were not inspected.",
+  "figure_viewed": false
+ }
+]

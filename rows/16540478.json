@@ -1,0 +1,50 @@
+[
+ {
+  "paper": true,
+  "pmid": "16540478",
+  "doi": "10.1074/jbc.M511077200",
+  "pmcid": "N/A",
+  "relevance_rank_note": "Measures ApoE-LDL receptor binding itself, as competition of recombinant apoE3 or apoE4 against 3H-LDL for the LDL receptor on HepG2 cells, so it tests B1 directly for one recycling receptor; but the APOE4-versus-APOE3 comparison the paper makes with full-length protein is a null, and the paper's positive isoform differences are all in engineered N- and C-terminal truncations that are not the A contrast.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "16540478",
+  "description": "Recombinant full-length apoE3 and apoE4 complexed with DMPC were compared as competitors of 3H-LDL for the LDL receptor on HepG2 cells, and the two isoforms competed equally, apoE3 setting the 100% reference and apoE4 giving 99% relative LDL-R binding ability (3H-LDL binding decreased 59% versus 58%).",
+  "quote": "The LDL-R binding ability of apoE-DMPC was higher than that of LDL at the same dose (20-fold), although apoE with or without DMPC did not show isoform specificity.",
+  "summary": "(APOE3 -> APOE4) -> (no change in LDL receptor binding, lipidated apoE)",
+  "relevance": 0.6,
+  "system": "Human HepG2 hepatoblastoma cells, 1.5 x 10^5 per 1-cm well, 50-60% confluence, serum-starved 24 h, cooled on ice 30 min, then incubated with 50 ug/ml 3H-LDL at 4 degrees C for 2 h with 0.5 mg recombinant full-length apoE3 or apoE4 expressed in E. coli BL21 and complexed with 0.5 mg DMPC in PBS pH 7.3; cell-associated radioactivity measured as a competition binding assay; apoE3-DMPC decrease rate normalised to 100%.",
+  "location": "Table 4 (full-length ApoE3 and ApoE4, With DMPC columns)",
+  "eff": "1%",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "2",
+  "n_prov": "printed_in_text",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "No figure image was viewed; all values are read from the Table 4 text rows and the Results text. No P value is printed for any isoform comparison in Table 4 or Fig 5, so p is N/A + not_found_in_source; the table footnote gives only an average S.E. of 14.3% with DMPC and 17.5% without. The Table 4 footnote states that the full-length apoE3 and apoE4 values at 0.5 mg were calculated by interpolation of the 0.125 and 1.0 mg doses, so these two numbers are interpolated, not directly measured. The Fig 5 legend states that most values are the average of duplicated experiments, so n = 2 is the stated typical replication rather than an explicit n for this pair. The effect is the 100 versus 99 relative binding ability difference, i.e. 1%; the alternative reading off the decrease rates (59 versus 58%) is also 1%. Engineered N- and C-terminal truncations in the same table do show apoE4 > apoE3 binding, but those are not the APOE4-versus-APOE3 contrast and are deliberately not recorded as findings.",
+  "figure_viewed": false
+ },
+ {
+  "pmid": "16540478",
+  "description": "The same competition binding assay run with lipid-free recombinant full-length apoE3 and apoE4 (no DMPC) also showed no isoform difference in LDL receptor binding, both isoforms decreasing 3H-LDL binding by 34% and both scoring 100% relative LDL-R binding ability.",
+  "quote": "A 10-fold dose of full-length apoE protein only lowered 34% of the bound 3H-LDL, whereas the same dose of apoE-DMPC lowered 58-59% of the bound 3H-LDL.",
+  "summary": "(APOE3 -> APOE4) -> (no change in LDL receptor binding, lipid-free apoE)",
+  "relevance": 0.55,
+  "system": "Human HepG2 hepatoblastoma cells, serum-starved 24 h, cooled on ice 30 min, then incubated with 50 ug/ml 3H-LDL at 4 degrees C for 2 h with 0.5 mg lipid-free recombinant full-length apoE3 or apoE4 expressed in E. coli BL21, in PBS pH 7.3 with no DMPC; competition binding assay with cell-associated radioactivity measured.",
+  "location": "Table 4 (full-length ApoE3 and ApoE4, Without DMPC columns)",
+  "eff": "0%",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "2",
+  "n_prov": "printed_in_text",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "No figure image was viewed; values read from the Table 4 text rows and Results text. The quote gives the pooled 34% decrease for full-length apoE without DMPC, which Table 4 lists as 34% for both apoE3 and apoE4 with relative binding ability 100 and 100, hence effect 0%; the human should confirm that reading 0% as the effect size is acceptable here rather than qualitative, given the convention against inventing precision for nulls. No P value is printed for any isoform comparison; the footnote gives only an average S.E. of 17.5% without DMPC. The Table 4 footnote states the 0.5 mg full-length values were obtained by interpolation of the 0.125 and 1.0 mg doses. The Fig 5 legend states most values are the average of duplicated experiments, which is the basis for n = 2. Lipid-free apoE is noted by the authors as a poor LDL competitor overall, so this null sits on a low-signal baseline.",
+  "figure_viewed": false
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "37060729",
+  "doi": "10.1016/j.neurobiolaging.2023.02.013",
+  "pmcid": "PMC10198819",
+  "relevance_rank_note": "Measures ApoE-LRP1 binding itself, in situ in brain tissue by proximity ligation assay across human APOE2, APOE3 and APOE4 knock-in mice, so B1 (adhesion to a recycling receptor) is the readout; the result runs opposite to H4 because ApoE4 binds LRP1 less than ApoE3, and the paper's human data are plasma ApoE concentrations rather than binding.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "37060729",
+  "description": "Proximity ligation assay on hippocampal CA3 sections from human APOE knock-in mice showed ApoE-LRP1 binding following the order ApoE2 greater than ApoE3 greater than ApoE4 whatever the peripheral treatment, so ApoE4 adhered to LRP1 less than ApoE3, the opposite of tighter ApoE4 binding.",
+  "quote": "Indeed, we used the PLA technique to confirm that the ApoE protein bound to LRP1 in the brain in the pattern of ApoE2>ApoE3>ApoE4",
+  "summary": "(APOE3 -> APOE4) -> (less ApoE-LRP1 binding in brain)",
+  "relevance": 0.7,
+  "system": "Ten-month-old female human APOE2, APOE3 and APOE4 targeted-replacement knock-in mice (Taconic 1547-F, 1548-F, 1549-F) in which endogenous mouse Apoe is replaced by the human allele, plus Apoe-knockout controls, injected intraperitoneally with PBS vehicle or monomeric C-reactive protein 200 ug/kg three days a week for 6 weeks; brightfield-protocol Duolink proximity ligation assay with rabbit anti-ApoE and mouse anti-LRP1 antibodies on 30 um free-floating coronal cryosections, PLA signal in the hippocampal CA3 region imaged by fluorescence microscopy, quantified in ImageJ as a percentage normalised to DAPI, ANOVA with Tukey post hoc and Student t test.",
+  "location": "Fig 2G",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "12-14",
+  "n_prov": "printed_in_text",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "No figure image was viewed for this paper; Fig 2G was not opened, so nothing here is read off a panel and the star positions were not checked. Against: true, and it is the clearest against-H4 row in this set, because the measured direction is ApoE4 binding LRP1 LESS than ApoE3. P is N/A / not_found_in_source and this is the key statistical judgement the human should confirm: the only P values the Results text attaches to Fig 2G are for ApoE2 versus ApoE3 (p < 0.0001) and ApoE2 versus ApoE4 (p < 0.0001), both of which are ApoE2 comparisons, and the ApoE3-versus-ApoE4 contrast recorded in this row is asserted only through the stated ordering pattern with no bracket, no P and no magnitude anywhere in text or legend. The legend's key is '**p < 0.01, ***p < 0.001, ****p < 0.0001' without saying which bars carry which star, so even a figure read would need the panel to show an ApoE3-to-ApoE4 bracket; under the inherited convention that is not shown rather than a tested null. Effect is qualitative for the same reason: only the ranking is printed. The separately reported mCRP effect, a 38% reduction in ApoE-LRP1 binding in ApoE4 mice only (p = 0.0296, Fig 2G), is deliberately NOT filed as an H4 row because it is a drug-versus-vehicle contrast within the ApoE4 genotype, not an APOE4-versus-APOE3 contrast; it is noted here only because it shows the ApoE4 binding level is the one that falls further under inflammatory challenge. The system is human-APOE knock-in MOUSE brain tissue, not human brain cells, and the mice are 10 months old with no AD transgene. The paper's human FHS data (Fig 1A, plasma ApoE 14.2 vs 10.1 vs 7.6 mg/dL for ApoE2, ApoE3, ApoE4 carriers, p < 0.0001) are ApoE protein CONCENTRATIONS, not binding, and yield no H4 row; the concentration gradient is also a confounder for this row, since less ApoE protein in ApoE4 brain could lower a PLA signal without any change in per-molecule affinity, and the authors themselves say the PLA signal is affected by both concentration and protein structure. No receptor recycling, surface level or pH dependence was measured.",
+  "figure_viewed": false
+ }
+]

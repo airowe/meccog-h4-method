@@ -1,0 +1,50 @@
+[
+ {
+  "paper": true,
+  "pmid": "25482438",
+  "doi": "10.1016/j.bbrc.2014.11.111",
+  "pmcid": "",
+  "relevance_rank_note": "Carries the most direct abstract-level B1 result of this set: a co-immunoprecipitation of apoE with LR11/SorLA, a neuronal recycling and sorting receptor, ranked apoE4 above apoE3 above apoE2, which is exactly the adhesion ordering H4 predicts; the companion uptake result shows apoE3 and apoE4 behaving alike, and no number, statistic or receptor recycling readout is given in the abstract.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "25482438",
+  "description": "Co-immunoprecipitation of apoE with LR11/SorLA in Neuro2a cells showed isoform-dependent complex formation ranked apoE4 greater than apoE3 greater than apoE2, placing apoE4 above apoE3 in adhesion to this neuronal sorting and recycling receptor.",
+  "quote": "Co-immunoprecipitation assay revealed that apoE-isoform-dependent differences were observed in the formation of an apoE-LR11 complex (apoE4>apoE3>apoE2).",
+  "summary": "(APOE3 -> APOE4) -> (more apoE-LR11/SorLA complex recovered by co-immunoprecipitation)",
+  "relevance": 0.65,
+  "system": "Mouse Neuro2a neuroblastoma cells expressing LR11/SorLA together with secreted human apoE2, apoE3 or apoE4, with the apoE-LR11 complex recovered by co-immunoprecipitation; LR11/SorLA is described as the neuronal lipoprotein endocytic receptor of apoE and the sorting receptor of amyloid precursor protein.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 1,
+  "strength": 3,
+  "against": false,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) the quantified band intensities behind the apoE4 greater than apoE3 greater than apoE2 ranking and whether the apoE4-versus-apoE3 step is statistically tested, the abstract giving only the ordering with no magnitude or P, which is why eff is qualitative and p and n are N/A, and the ranking could rest on a single blot; (2) whether the input apoE was matched across isoforms, since more apoE in the medium or more internalised apoE would raise the recovered complex without any affinity difference, and the companion uptake result in this same paper shows apoE4 and apoE3 taken up comparably while the coculture result shows apoE4 highest; (3) whether binding was assayed at neutral or endosomal pH and whether dissociation was measured, H4 being about adhesion that persists in the endosome; (4) whether LR11/SorLA surface level or recycling rate was measured, which the abstract does not mention, so B2 is untested here; (5) whether the apoE was lipidated. Class 1 because apoE-receptor complex formation is itself the measurement, at strength 3 because it is an unquantified co-immunoprecipitation ranking in a mouse neuroblastoma line rather than human brain cells.",
+  "figure_viewed": false
+ },
+ {
+  "pmid": "25482438",
+  "description": "Overexpressing LR11/SorLA in Neuro2a cells enhanced the cellular uptake of secreted apoE3 and of secreted apoE4 alike, while leaving apoE2 uptake unaffected, so the receptor-dependent uptake step did not separate apoE4 from apoE3.",
+  "quote": "Cell culture experiments using Neuro2a cells revealed that the cellular uptake of secreted apoE3 and apoE4 was enhanced by the overexpression of LR11/SorLA. In contrast, the cellular uptake of apoE2 was not affected by the expression of LR11/SorLA.",
+  "summary": "(APOE3 -> APOE4) -> (no change in LR11/SorLA-dependent uptake of secreted apoE)",
+  "relevance": 0.4,
+  "system": "Mouse Neuro2a neuroblastoma cells with and without overexpression of LR11/SorLA, exposed to secreted human apoE2, apoE3 or apoE4, with cellular uptake of the secreted apoE measured.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) whether apoE3 and apoE4 uptake were in fact equal or merely both significantly raised by LR11/SorLA over their own no-receptor controls, which are different claims, the abstract grouping them in one clause without an apoE3-versus-apoE4 comparison, so this is recorded as an untested null with p N/A and may not be a null at all once the panel is read; (2) the magnitudes and replicate counts, none printed; (3) whether this uptake result is reconciled in the full text with the apoE4-highest coculture result and the apoE4-greater-than-apoE3 co-immunoprecipitation reported in the same abstract, the three not obviously pointing the same way; (4) whether LR11/SorLA recycling or surface level was measured. Recorded as against because H4 predicts an apoE4-over-apoE3 difference on this receptor axis and this readout shows none. Class 3 because uptake is a B-side surrogate rather than a binding measurement. The amyloid-beta uptake results in this paper were not extracted: they measure handling of a different ligand and bear on amyloid deposition rather than on apoE adhesion to a recycling receptor.",
+  "figure_viewed": false
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "8808766",
+  "doi": "10.1016/s0022-2275(20)39161-6",
+  "pmcid": "",
+  "relevance_rank_note": "Measures apoE-genotype-dependent affinity of native human VLDL for HepG2 cell-surface receptors directly, which is the B1 side of H4, but the receptor is not identified or distinguished (HepG2 surface binding pooled, LDLR-family assumed), the ligand is a whole VLDL particle rather than apoE alone, and only the abstract was available so the assay, competitor and statistics could not be read.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "8808766",
+  "description": "VLDL isolated from 17 normolipidemic subjects covering all six APOE genotypes was assayed for binding to HepG2 cell-surface receptors, and after adjusting each preparation for its VLDL apoE content the affinity ranked VLDL-4/4 highest at 100% and VLDL-3/3 at 82%, with every apoE2-containing genotype far lower. Effect detail: VLDL-4/4 100%, VLDL-3/4 93%, VLDL-3/3 82%, VLDL-4/2 53%, VLDL-3/2 36%, VLDL-2/2 30%, the units and reference for these percentages not being stated in the abstract.",
+  "quote": "Once we adjusted for VLDL apoE content, we observed that VLDL affinity to HepG2 cell surface receptors decreased, according to apoE genotype, in the following order: VLDL-4/4 (100%) > VLDL-3/4 (93%) > VLDL-3/3 (82%) > VLDL-4/2 (53%) > VLDL-3/2 (36%) > VLDL-2/2 (30%).",
+  "summary": "(APOE3/3 -> APOE4/4) -> (higher VLDL affinity for HepG2 cell-surface receptors, 82% -> 100%)",
+  "relevance": 0.5,
+  "system": "Very low density lipoprotein preparations isolated from 17 normolipidemic human subjects spanning all six APOE genotypes, assayed for binding to the cell-surface receptors of the human HepG2 hepatoma cell line, with affinity normalised to the apoE content of each VLDL preparation; a further 47 subjects were analysed for VLDL protein and VLDL apoE concentration.",
+  "location": "Abstract",
+  "eff": "100%",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "17",
+  "n_prov": "printed_in_text",
+  "class": 1,
+  "strength": 3,
+  "against": false,
+  "human_check": "The full text was not available: the Journal of Lipid Research page for this 1996 article states the paper exists only as a PDF, so Methods, Results, figure legends and tables were not read. A reader with the PDF should check: (1) what receptor or receptors the HepG2 surface binding represents and whether LDLR was blocked or distinguished from LRP1, since H4 requires a recycling receptor and the abstract names none; (2) whether a statistical test brackets VLDL-4/4 against VLDL-3/3, because the only significance the abstract reports is for the apoE2-containing versus non-apoE2 subgroups, not for the 100-versus-82 contrast recorded here, so p is N/A rather than a tested null; (3) how many subjects carried each genotype, since n = 17 is the whole panel across six genotypes and the per-arm n is likely 2-4; (4) whether the percentages are affinity (Kd-derived) or bound counts, and what the 100% reference is normalised to. Effect is recorded as the authors' printed 100% for VLDL-4/4 with the 82% comparator in the description, not as a computed ratio. The hypothesis specifies brain cells and this is a hepatoma line with plasma VLDL, and APOE genotype here is natural human variation with no stated age or disease screening beyond normolipidemia.",
+  "figure_viewed": false
+ }
+]

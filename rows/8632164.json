@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "8632164",
+  "doi": "10.1046/j.1471-4159.1996.66062410.x",
+  "pmcid": "",
+  "relevance_rank_note": "Measures isoform-specific binding of reconstituted apoE liposomes to primary rat astrocytes and hippocampal neurons, with the binding assigned to the apoE/LDL receptor axis by LDL and VLDL displacement, and reports apoE4 binding similar to apoE3 in both cell types, making it an against row on H4's B1 side; the receptor is inferred from competition rather than identified, and only the abstract was available.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "8632164",
+  "description": "Reconstituted apoE2, apoE3 and apoE4 liposomes were iodinated and assayed for specific binding to primary rat astrocytes and hippocampal neurons, and apoE4 binding was similar to apoE3 binding in both cell types, with only apoE2 binding significantly lower, so no tighter apoE4 adhesion was seen on either brain cell type.",
+  "quote": "125I-ApoE2 binding was significantly lower than that of the other 125I-apoE isoforms in both cell types. 125I-ApoE4 binding was similar to that of 125I-apoE3 in both astrocytes and neurons.",
+  "summary": "(APOE3 -> APOE4) -> (no change in apoE binding to primary astrocytes or hippocampal neurons)",
+  "relevance": 0.5,
+  "system": "Primary cultures of rat astrocytes and rat hippocampal neurons incubated with reconstituted apoE2-, apoE3- or apoE4-liposomes labelled with iodine-125, specific binding and internalisation assessed with displacement by excess unlabelled human LDL and VLDL; the same cultures were characterised for human iodine-125-LDL binding, giving a KD of 1.8 nM and a Bmax of 0.14 pmol per mg of protein, with binding, internalisation and degradation measured at 37 degrees C.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) whether the apoE4-versus-apoE3 similarity is a tested equivalence with a stated non-significant P, or an untested assertion, the abstract giving significance only for the apoE2 comparison, which is why p is N/A and this is recorded as an untested null; (2) the binding values and replicate counts for each isoform in each cell type, none of which the abstract prints, so no effect size could be recorded; (3) which receptor carries the binding, since the abstract attributes it to the apoE/LDL receptor axis via LDL and VLDL displacement but identifies no receptor directly and does not exclude heparan sulfate proteoglycans or LRP1, this inference being the reason the row is class 1 at strength 3 rather than better; (4) whether binding was measured at 4 degrees C for surface binding or at 37 degrees C where internalisation contributes, the abstract describing both temperatures for the LDL work but not specifying for the apoE-liposome comparison; (5) whether apoE dissociation, endosomal pH or receptor recycling was examined, none of which the abstract mentions. Recorded as against because H4 predicts tighter apoE4 adhesion and this reports none. The KD of 1.8 nM in the system field belongs to human LDL binding to astrocytes, not to any apoE isoform, and must not be read as an apoE affinity. The system is primary rat brain cells with reconstituted human apoE liposomes, not human brain cells.",
+  "figure_viewed": false
+ }
+]

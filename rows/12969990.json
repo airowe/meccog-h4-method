@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "12969990",
+  "doi": "10.1161/01.ATV.0000094963.07902.FB",
+  "pmcid": "",
+  "relevance_rank_note": "Bears on H4 only indirectly: the paper measures atherosclerosis, remnant accumulation and in vivo remnant clearance in APOE*3 and APOE*4 knock-in mice with doubled Ldlr expression, and the apoE4-is-trapped-by-LDLR mechanism plus the apoE3-has-lower-LDLR-affinity statement are the authors' interpretation of that phenotype, not a binding measurement made here; no affinity, co-immunoprecipitation or receptor recycling readout is reported in the abstract.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "12969990",
+  "description": "Doubling Ldlr expression in mice carrying human APOE*4 caused severe atherosclerosis and marked accumulation of cholesterol-rich, apoE-poor remnants on a Western-type diet, whereas the same Ldlr increase in APOE*3 mice did not, and the authors read this genotype-specific harm as the receptor trapping apoE4 and withholding it from nascent lipoproteins.",
+  "quote": "doubling Ldlr expression caused severe atherosclerosis with marked accumulation of cholesterol-rich, apoE-poor remnants in mice with human apoE4, but not apoE3, when the animals were fed a Western-type diet",
+  "summary": "(APOE3 -> APOE4) -> (raising LDLR traps apoE4, giving apoE-poor remnants and atherosclerosis) -> (apoE4 held on the receptor rather than released)",
+  "relevance": 0.3,
+  "system": "Mice carrying human APOE*3 or APOE*4 in place of mouse Apoe, crossed to double Ldlr expression, fed a Western-type diet; readouts were aortic atherosclerosis, plasma remnant cholesterol and apoE content, in vivo clearance of exogenously introduced remnants, and nascent lipoprotein production rates.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 4,
+  "strength": 4,
+  "against": false,
+  "human_check": "The full text is paywalled at AHA Journals and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) whether the paper measures apoE3-versus-apoE4 LDLR binding affinity anywhere, or whether the abstract's 'lower affinity for the LDLR of apoE3 compared with apoE4' is purely a citation to prior work used to interpret the phenotype, which is how it is read here and is why this is class 4 rather than class 1; (2) whether apoE4 trapping on LDLR is shown directly, for example as apoE retained with the receptor, or only inferred from the apoE-poor remnant composition; (3) whether any LDLR surface level, recycling rate or receptor retention was measured, none being mentioned in the abstract; (4) the group sizes, diet duration and the statistics for the apoE4-versus-apoE3 comparison, none of which the abstract prints. Effect is qualitative, the direction being stated in words in the abstract with no magnitude printed for any contrast. The system is mouse with human APOE knocked in, not human brain cells, and the readout is hepatic and vascular lipoprotein metabolism rather than a neural recycling receptor.",
+  "figure_viewed": false
+ }
+]

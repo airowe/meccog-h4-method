@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "34557909",
+  "doi": "10.1242/jcs.258894",
+  "pmcid": "PMC8572006",
+  "relevance_rank_note": "Indirect for H4: measures endosomal (Rab5) and recycling-endosome (Rab11) retention of sortilin-FABP7 complexes with apoE4 vs apoE3 in hamster CHO cells overexpressing murine sortilin, a receptor-trafficking surrogate; no apoE-sortilin binding, surface level or recycling rate is measured here.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "34557909",
+  "description": "Sortilin-FABP7 complexes detected by proximity ligation assay colocalised more with the recycling-endosome marker Rab11 in cells treated with apoE4 than with apoE3 (thresholded Manders' tM1).",
+  "quote": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 was confirmed quantitatively by colocalization studies documenting trapping of PLA signals for sortilin and FABP7 in early endosomes (marked by Rab5; Fig. 7F,H) and recycling endosomes (marked by Rab11; Fig. 7G,I)",
+  "summary": "(apoE3 -> apoE4) -> (more sortilin-FABP7 complex trapped in Rab11 recycling endosomes)",
+  "relevance": 0.5,
+  "system": "Chinese hamster ovary (CHO-K1) cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F); conditioned medium from HEK293 cells transfected with human apoE3 or apoE4, 5 ug/ml for 24 h; proximity ligation assay (anti-sortilin, anti-Myc) co-stained for Rab11; thresholded Manders' tM1 on single z-planes, quantified blinded.",
+  "location": "Fig 7I",
+  "eff": "~25%",
+  "eff_prov": "estimated_from_figure",
+  "p": "<0.05",
+  "p_prov": "visual_only",
+  "n": "38",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "Effect read off bars: tM1 apoE3 ~0.21 vs apoE4 ~0.26. Single * on the E3-E4 bracket, legend key *P<0.05 (unpaired two-tailed t-test). n = 38 cells per condition, experiment replicated three times. The complex measured is sortilin-FABP7 (FABP7 is a cytosolic cargo), not apoE-sortilin, so this is receptor retention, not apoE adhesion."
+ },
+ {
+  "pmid": "34557909",
+  "description": "Sortilin-FABP7 complexes detected by proximity ligation assay colocalised more with the early-endosome marker Rab5 in cells treated with apoE4 than with apoE3 (thresholded Manders' tM1).",
+  "quote": "Extent of colocalization of PLA for sortilin and FABP7 with Rab5 (H) (n=34 cells for apoE3 and 33 cells for apoE4 treatment)",
+  "summary": "(apoE3 -> apoE4) -> (more sortilin-FABP7 complex trapped in Rab5 early endosomes)",
+  "relevance": 0.45,
+  "system": "Chinese hamster ovary (CHO-K1) cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F); conditioned medium from HEK293 cells transfected with human apoE3 or apoE4, 5 ug/ml for 24 h; proximity ligation assay (anti-sortilin, anti-Myc) co-stained for Rab5; thresholded Manders' tM1 on single z-planes, quantified blinded.",
+  "location": "Fig 7H",
+  "eff": "~35%",
+  "eff_prov": "estimated_from_figure",
+  "p": "<0.01",
+  "p_prov": "visual_only",
+  "n": "33-34",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "Effect read off bars: tM1 apoE3 ~0.20 vs apoE4 ~0.27. ** on the E3-E4 bracket, legend key **P<0.01. n = 34 cells (apoE3) and 33 cells (apoE4). Complex is sortilin-FABP7, not apoE-sortilin. Fig 7E (qualitative perinuclear shift of PLA and total sortilin with apoE4) left out as images only; FABP7 level panels 7A-D left out as downstream cargo."
+ }
+]

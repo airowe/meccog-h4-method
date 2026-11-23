@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "11369796",
+  "doi": "N/A",
+  "pmcid": "N/A",
+  "relevance_rank_note": "A structural NMR study of the microenvironment of the LDL receptor-binding region of the apoE isoforms; its only H4-relevant content is the APOE4-equals-APOE3 LDL receptor affinity null, and the lysine pKa and ferricyanide exposure measurements are charge and solvent-exposure mechanism readouts whose stated binding consequence for apoE4 versus apoE3 is no change.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "11369796",
+  "description": "In DMPC phospholipid complexes the 22-kDa amino-terminal fragments of apoE3 and apoE4 bound the LDL receptor with the same affinity as each other and about 100-fold better than apoE2, so the isoform difference that matters for LDL receptor adhesion lies at position 158 and not at the position 112 residue that distinguishes apoE4 from apoE3.",
+  "quote": "When present in dimyristoyl phosphatidylcholine (DMPC) complexes, the 22-kDa aminoterminal fragments (residues 1–191) of apoE3 and apoE4 bound to the LDLR with ~100-fold greater affinity than the 22-kDa fragment of apoE2.",
+  "summary": "(APOE3 -> APOE4) -> (no change in LDL receptor binding affinity)",
+  "relevance": 0.5,
+  "system": "Cell-free and cultured-fibroblast binding of recombinant 22-kDa amino-terminal fragments (residues 1-191) of human apoE2, apoE3 and apoE4 expressed in E. coli and reconstituted into discoidal complexes with dimyristoyl phosphatidylcholine at a 3.2:1 lipid-to-protein weight ratio, hydrodynamic diameter about 16 nm and apoE alpha-helical content 65-70 percent; LDL receptor affinity assessed by a fibroblast competitive binding assay against 125I-labelled LDL, with the lipid-free versus DMPC-complexed apoE3 competition concentrations given as 7,000 and 0.7 nM.",
+  "location": "Abstract and Results (Fig 1A text, 22-kDa apoE3 fibroblast competition), with Discussion 'Role of the C112R mutation'",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "N/A",
+  "n_prov": "not_found_in_source",
+  "class": 1,
+  "strength": 3,
+  "against": true,
+  "human_check": "No figure image was viewed for this paper; nothing was read off a panel. Against: true, an APOE4-equals-APOE3 null for LDL receptor adhesion, which is the direction opposite to H4. IMPORTANT PROVENANCE CAVEAT the human must weigh: this paper does not itself run an apoE4-versus-apoE3 binding titration. The apoE4-equals-apoE3 affinity statement is carried in the paper's own voice in several places but cited to reference 4 ('ApoE4 binds to the LDLR with the same affinity as apoE3 (4)'; 'When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa fragments have the same affinity for the LDLR (4, 34)'; 'this isoform binds as well as apoE3 to the LDLR'; 'the presence of a positive charge at position 112 in apoE4 does not alter LDLR-binding affinity (4)'). The quoted abstract sentence is the one place the comparison is stated without an inline citation, which is why it is the quote here; the human may prefer to treat this row as an asserted literature value rather than a measurement made in this paper, and to downgrade strength accordingly. The only binding number printed for work done here is the apoE3 fibroblast competition concentration pair 7,000 nM (lipid-free) versus 0.7 nM (DMPC-complexed), which is a lipid-state contrast, not an isoform contrast. Effect is qualitative: the ~100-fold figure printed is apoE3-or-apoE4 versus apoE2, not apoE4 versus apoE3, and the apoE4-versus-apoE3 contrast has no magnitude because it is a stated equality. No P and no n are printed for any isoform binding comparison. The Table 1 lysine pKa values (K143 9.5 in apoE3 versus 9.9 in apoE4, a 0.4 pH unit rise; K146 9.2 versus 9.4) and the Table 2 ferricyanide relative downfield shifts (K143 0.95 in both apoE3 and apoE4; K146 1.25 versus 1.18) are deliberately NOT filed as separate H4 findings: the authors state explicitly that the K143 pKa change 'did not alter LDLR-binding affinity' and that the cysteine-arginine interchanges 'did not significantly affect the exposure of any of the lysines to the aqueous phase', so each measurement's stated apoE4-versus-apoE3 binding consequence is the same null already recorded in this row, and filing them separately would multiply one null into three. No pH-dependence of apoE-receptor binding was measured: the pH titrations are of lysine side chains in the protein, not of receptor adhesion, so this paper says nothing about endosomal-pH dissociation.",
+  "figure_viewed": false
+ }
+]

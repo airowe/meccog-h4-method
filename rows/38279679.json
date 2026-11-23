@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "38279679",
+  "doi": "10.1002/1873-3468.14803",
+  "pmcid": "",
+  "relevance_rank_note": "The abstract-level paper closest in shape to H4: it measures both binding of apoE-containing lipoproteins to LRP1, an LDLR-family recycling receptor, and their subsequent catabolism, and reports apoE4 as sufficiently bound but lowest in catabolic capability, which is the bound-yet-not-processed pattern H4 posits; no numbers are given, apoE4 is not bracketed against apoE3 for binding, and receptor recycling itself is not measured.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "38279679",
+  "description": "ApoE2-, apoE3- and apoE4-containing lipoproteins were compared for binding to LRP1 and for subsequent catabolism, and apoE4-containing lipoprotein bound LRP1 adequately yet was catabolised least of the three, while apoE2-containing lipoprotein had the lowest LRP1 affinity but was still substantially catabolised, dissociating receptor binding from downstream processing.",
+  "quote": "Among the three isoforms, apoE2-LP exhibited the lowest affinity for LRP1 but was significantly catabolized, whereas apoE4-LP was sufficiently bound to LRP1 but showed the lowest catabolic capability.",
+  "summary": "(APOE3 -> APOE4) -> (apoE4-lipoprotein bound to LRP1 but catabolised least) -> (binding not converted into processing)",
+  "relevance": 0.55,
+  "system": "ApoE-containing lipoproteins (apoE-LP) carrying apoE2, apoE3 or apoE4, with the cysteine-thiol of apoE either reduced or formed into disulfide-linked complexes with apoAII, assayed for affinity for LRP1 and for LRP1-mediated catabolism of triglyceride-rich lipoproteins.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 1,
+  "strength": 3,
+  "against": false,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read; no numbers of any kind are given in the abstract, which is why eff is qualitative and p and n are N/A. A reader with access should check: (1) the actual binding values for apoE4 against apoE3, since the abstract ranks only apoE2 as lowest and calls apoE4 'sufficiently bound' without saying whether apoE4 exceeded, matched or fell below apoE3, so this row does not establish tighter apoE4 adhesion and could turn out to be a null or an against row once the numbers are read; (2) whether any statistical test brackets apoE4 against apoE3 for either binding or catabolism; (3) what assay measured affinity, whether it was cell-free or cell-based, and at what pH, H4 being specifically about adhesion persisting at endosomal pH; (4) whether low catabolic capability reflects apoE4 remaining attached to LRP1, which is what would support H4, or slower internalisation or lysosomal handling downstream of release, the abstract not distinguishing these; (5) whether LRP1 surface level or recycling was measured, which the abstract does not mention. Class 1 because apoE-LRP1 binding is itself measured here, at strength 3 because the apoE4-versus-apoE3 binding contrast is not quantified. The system is lipoprotein particles and LRP1 in a lipid-metabolism context, not human brain cells.",
+  "figure_viewed": false
+ }
+]

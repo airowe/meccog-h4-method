@@ -1,0 +1,8 @@
+{"date": "2026-11-23", "source": "PubMed esearch, retmax 200", "queries": {
+"Q1": "(\"apolipoprotein E\"[tiab] OR apoE[tiab]) AND (isoform*[tiab] OR apoE3[tiab] OR apoE4[tiab] OR \"apolipoprotein E4\"[tiab]) AND (affinity[tiab] OR \"binding constant\"[tiab] OR Kd[tiab] OR \"surface plasmon\"[tiab] OR \"binding kinetics\"[tiab]) AND (receptor*[tiab] OR LRP*[tiab] OR LDLR[tiab] OR VLDLR[tiab] OR ApoER2[tiab] OR sortilin[tiab] OR SorLA[tiab])",
+"Q2": "(apoE4[tiab] OR \"apolipoprotein E4\"[tiab] OR APOE4[tiab] OR \"apoE-4\"[tiab]) AND endosom*[tiab] AND (dissociat*[tiab] OR pH[tiab]) AND receptor*[tiab]",
+"Q3": "(apoE4[tiab] OR \"apolipoprotein E4\"[tiab] OR APOE4[tiab]) AND recycl*[tiab] AND receptor*[tiab]",
+"Q4": "(apoE4[tiab] OR APOE4[tiab] OR \"apolipoprotein E4\"[tiab]) AND (coimmunoprecipitat*[tiab] OR co-immunoprecipitat*[tiab] OR pull-down[tiab] OR \"binds\"[tiab] OR binding[tiab]) AND (LRP1[tiab] OR ApoER2[tiab] OR LRP8[tiab] OR VLDLR[tiab] OR LDLR[tiab] OR \"LDL receptor\"[tiab] OR sortilin[tiab] OR SORL1[tiab] OR SorLA[tiab])",
+"Q5": "(\"apolipoprotein E\"[tiab] OR apoE[tiab]) AND (recycling[tiab] OR retroendocytosis[tiab] OR resecretion[tiab] OR re-secretion[tiab]) AND (apoE4[tiab] OR isoform*[tiab] OR \"apolipoprotein E4\"[tiab])",
+"Q6": "(apoE4[tiab] OR APOE4[tiab] OR \"apolipoprotein E4\"[tiab]) AND (ApoER2[tiab] OR LRP8[tiab] OR Reelin[tiab]) AND (surface[tiab] OR sequest*[tiab] OR internaliz*[tiab] OR trapp*[tiab] OR endocyt*[tiab])",
+"Q7": "(apoE4[tiab] OR \"apolipoprotein E4\"[tiab] OR \"apoE isoforms\"[tiab]) AND (\"heparan sulfate\"[tiab] OR HSPG[tiab]) AND (affinity[tiab] OR binding[tiab]) AND (receptor*[tiab] OR uptake[tiab])"}}

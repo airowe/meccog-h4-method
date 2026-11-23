@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "pmid": "18359298",
+  "doi": "10.1016/j.bbalip.2008.02.001",
+  "pmcid": "",
+  "relevance_rank_note": "Measures recycling of apoE itself after receptor-mediated endocytosis in a neuronal cell line and finds it significantly reduced for apoE4 relative to apoE3, which is a B2-side surrogate for H4; no receptor is identified or measured, no apoE-receptor binding or dissociation is assayed, and only the abstract was available.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "18359298",
+  "description": "ApoE3- or apoE4-containing lipoproteins were taken up by murine HT-22 neuronal cells and the apoE re-secreted was measured: apoE3 recycled as expected while apoE4 recycling was significantly reduced, yet cholesterol efflux did not differ between the isoforms.",
+  "quote": "Uptake of apoE3-containing lipoproteins resulted in the expected recycling while, as seen in non-neuronal cells, recycling of apoE4 was significantly reduced. However, despite these differences in apoE recycling, there was no difference in rates of cholesterol efflux.",
+  "summary": "(APOE3 -> APOE4) -> (less apoE recycled back out of the cell after endocytosis, with cholesterol efflux unchanged)",
+  "relevance": 0.5,
+  "system": "Murine HT-22 neuronal cell line incubated with lipoproteins containing apoE3 or apoE4, with cellular processing of the apoE isoforms and the associated cholesterol efflux measured after receptor-mediated endocytosis.",
+  "location": "Abstract",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "The full text is paywalled and was not obtained, so Methods, Results, figures and tables were not read. A reader with access should check: (1) the magnitude of the recycling reduction and the P value and replicate count behind the word 'significantly', none of which the abstract prints, which is why eff is qualitative and p and n are N/A; (2) which receptor mediated the uptake and whether its surface level, retention or recycling was measured, since the abstract names no receptor and H4 is about the receptor's recycling rather than apoE's, which is why this is class 3 and not class 1; (3) whether apoE4 was retained bound to a receptor in the endosome or merely degraded, the two being distinguishable only in the full text and only the first supporting H4's adhesion mechanism; (4) the apoE source and lipidation state of the lipoproteins used, and whether the isoforms were matched for apoE content; (5) whether an apoE2 arm exists. The no-difference cholesterol-efflux result in the same quote is the authors' negative finding and is recorded here as context, not as a separate against row, since efflux is not a readout of receptor adhesion or receptor recycling. The system is a murine neuronal cell line with exogenous apoE-containing lipoproteins, not human brain cells.",
+  "figure_viewed": false
+ }
+]
