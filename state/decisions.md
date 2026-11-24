@@ -225,3 +225,43 @@ H4: A = APOE4 vs APOE3. B = APOE adheres more tightly to a recycling receptor
   Lesson for any future README: verify every author attribution against the record,
   not from memory. A public method document is exactly where a fabricated citation
   does the most damage.
+- 2026-11-23, team leader: "Yes, commit". ~/Projects/meccog-h4-method initialised on
+  branch main and the first commit made: 6153357c81738fb9f8672e8be5d43739d6933a83,
+  "docs: add H4 method description and evidence rows", 75 files, 3912 insertions.
+  Pre-commit checks: .gitignore excludes method.local.json, *.xlsx, ft/ and supp/;
+  0 staged files matched those patterns; 0 matches for any contact detail or email in
+  the staged content. Conventional Commits, no AI mention, no Co-Authored-By line.
+  NOT done, still needs the user: creating the GitHub repo, adding a remote, pushing,
+  and updating method.local.json (it still carries the H2 method URL and SHA, so the
+  H4 submission would currently name the wrong method).
+- 2026-11-23, team leader: "Yes, create and push". Public repo created and pushed:
+  https://github.com/airowe/meccog-h4-method (public, matching the H2 precedent and the
+  rules' requirement that the method be public). Remote HEAD matches local
+  6153357c81738fb9f8672e8be5d43739d6933a83. Verified after publishing: 80 paths public,
+  0 matching ft/, supp/, *.xlsx or method.local.json. No full texts, figure images,
+  spreadsheets or contact details were published.
+  STILL OPEN: method.local.json must be updated to the new URL and SHA before any
+  submission; it currently names the H2 repo.
+
+## method.local.json pointed at the H4 repo (2026-11-23)
+
+`method.local.json` still carried H2's method reference: URL
+`https://github.com/airowe/meccog-h2-method`, SHA `8e46b886...`. Submitting the
+H4 spreadsheet with those would have named the wrong repository and a commit
+containing none of this work.
+
+Updated with the user's explicit approval to:
+- Method URL: https://github.com/airowe/meccog-h4-method
+- Commit SHA: 6153357c81738fb9f8672e8be5d43739d6933a83
+
+SHA verified against both local HEAD and `refs/heads/main` on the remote before
+the rebuild, not copied from memory.
+
+Rebuilt `~/Documents/Alzheimers/H4_submission.xlsx`: 29 papers, 89 findings,
+39 against (unchanged). Method sheet re-read from the written file and confirmed
+to carry both new values. Official validator: "SUBMISSION VALID — no problems
+found." check_rows.py: clean, exit 0, and its --selftest still catches 6/6
+seeded defects (an empty pass is only meaningful alongside the control).
+
+No evidence row was touched. This was the last blocker on the submission side;
+submission itself remains the team leader's, and has not been attempted.
